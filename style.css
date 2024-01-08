@@ -1,11 +1,21 @@
-/* html,body{
+html,body{
     margin:0;
     padding:0;
 }
 
 .container{
     display: flex;
-    flex-wrap: wrap;  
-    flex-direction: column;  
-} */
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap;
+} 
 
+.integrated{
+    display: flex;
+    width:100%;
+}
+
+img{
+    width: fit-content;
+    height: 50%;
+}
