@@ -5,7 +5,6 @@
 
 html,body{
     margin:0;
-    background-color: azure;
     padding:0;
 }
 
@@ -24,6 +23,7 @@ html,body{
 
 
 .integrated{
+    background-color: black;
     display: flex;
     margin: 20px;
     width: 100%;
@@ -34,8 +34,13 @@ html,body{
 
 
 .anchor{
-    border: 2px solid black;
-    
-    
+    background-color: aliceblue;
+    width: 30%;
+    height:50%;
+    object-fit: contain;
+    border: 2px solid black; 
 }
 
+img{
+    object-fit: cover;
+}
