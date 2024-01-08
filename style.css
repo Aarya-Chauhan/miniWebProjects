@@ -1,3 +1,8 @@
+@font-face {
+    font-family: rb;
+    src: url(./assets/Rejouice-Headline.ttf);
+}
+
 html,body{
     margin:0;
     background-color: azure;
@@ -12,25 +17,25 @@ html,body{
 } 
 
 .container>.title>h1{
-    font-size: 10vh;
+    font-family: rb;
+    letter-spacing: 5px;
+    font-size: 5vw;
 }
 
 
 .integrated{
     display: flex;
-    width:100% !important;
+    margin: 20px;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    
     object-fit: contain;
 }
 
-img{
-    
-    height: 50%;
-}
 
 .anchor{
     border: 2px solid black;
-    height: 50%;
+    
+    
 }
+
