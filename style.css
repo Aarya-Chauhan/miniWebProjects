@@ -10,12 +10,16 @@ html,body{
     flex-wrap: wrap;
 } 
 
+
+
 .integrated{
     display: flex;
-    width:100%;
+    width:100% !important;
+    object-fit: contain;
 }
 
 img{
-    width: fit-content;
+    
     height: 50%;
 }
+
