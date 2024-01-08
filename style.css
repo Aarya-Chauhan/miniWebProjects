@@ -1,5 +1,6 @@
 html,body{
     margin:0;
+    background-color: azure;
     padding:0;
 }
 
@@ -10,11 +11,17 @@ html,body{
     flex-wrap: wrap;
 } 
 
+.container>.title>h1{
+    font-size: 10vh;
+}
 
 
 .integrated{
     display: flex;
     width:100% !important;
+    align-items: center;
+    justify-content: space-evenly;
+    
     object-fit: contain;
 }
 
@@ -23,3 +30,7 @@ img{
     height: 50%;
 }
 
+.anchor{
+    border: 2px solid black;
+    height: 50%;
+}
