@@ -23,7 +23,6 @@ html,body{
 
 
 .integrated{
-    background-color: black;
     display: flex;
     margin: 20px;
     width: 100%;
@@ -34,13 +33,14 @@ html,body{
 
 
 .anchor{
-    background-color: aliceblue;
-    width: 30%;
-    height:50%;
     object-fit: contain;
     border: 2px solid black; 
 }
 
 img{
     object-fit: cover;
+}
+
+.anchor:hover{
+    background-color: aquamarine;
 }
