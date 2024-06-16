@@ -23,6 +23,7 @@ function addTodo(event){
      newTodo.classList.add('todo-item');
      todoDiv.appendChild(newTodo);
     //Add Todo to LocalStorage
+    
     saveLocalTodos(todoInput.value);
 
     //Check MARK BUTTON
