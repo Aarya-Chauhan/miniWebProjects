@@ -64,5 +64,43 @@ body{
     width: 20px;
 }
 
+.container .weather-icon{
+    width: 40%;
+    margin: 10px auto;
+}
 
+.container h1{
+    font-size: 70px;
+    color: #fff ;
+}
 
+.container h2{
+    font-size: xx-large;
+    color: #fff;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left; 
+}
+
+.col img{
+    width:40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 25px;
+  margin-top: -6px;
+}
