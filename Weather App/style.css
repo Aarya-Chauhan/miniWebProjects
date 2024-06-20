@@ -104,3 +104,14 @@ body{
   font-size: 25px;
   margin-top: -6px;
 }
+
+.container{
+    display:none;
+}
+
+.error{
+    text-align: left;
+    margin: 10px 10px;
+    font-size: 14px;
+    display: none;
+}
