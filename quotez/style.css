@@ -46,7 +46,7 @@ body{
 }
 
 .quote-box blockquote::before, .quote-box blockquote::after{
-    content: '"';
+    content: ' " ';
 }
 
 .quote-box span{
