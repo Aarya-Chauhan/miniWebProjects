@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+.main{
+    width: 100%;
+    height: 100%;
+}
+
 h1{
     text-align: center;
     color: #C7E8F3;
@@ -60,10 +65,45 @@ body{
     font-size: xx-large;
     background-color: #596F62;
     color: #C7E8F3;
-    z-index: 2;
-    
-
-
-
-    
+    z-index: 2;  
 }
+
+.msgContainer{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    padding: 30px ;
+    margin: 30px auto;
+
+
+}
+
+#msg{
+    width: 390px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 70px;
+    color: #C7E8F3;
+}
+
+
+
+.new-btn{
+    display: block;
+    margin: 1.5rem auto;
+    padding: 1.5rem 4rem ;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: xx-large;
+    background-color: #596F62;
+    color: #C7E8F3;  
+}
+
+.hide{
+    display: none;
+}
+
