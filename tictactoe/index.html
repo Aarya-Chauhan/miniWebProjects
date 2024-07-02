@@ -66,29 +66,27 @@
         enableBoxes();
         msgContainer.classList.add("hide");
         mainContainer.classList.remove("hide");
-      }
+      };
 
       const disableBoxes = () => {
-        for(let box of boxes){
+        for (let box of boxes) {
           box.disabled = true;
         }
-      }
+      };
 
       const enableBoxes = () => {
-        for(let box of boxes){
+        for (let box of boxes) {
           box.disabled = false;
           box.innerText = "";
         }
-      }
+      };
 
       const showWinner = (winner) => {
-          mainContainer.classList.add("hide")
-          msg.innerText = `Bravo!! Winner is ${winner}`;
-          msgContainer.classList.remove("hide");
-          disableBoxes();
-        };
-
-
+        mainContainer.classList.add("hide");
+        msg.innerText = `Bravo!! Winner is ${winner}`;
+        msgContainer.classList.remove("hide");
+        disableBoxes();
+      };
 
       const checkWinner = () => {
         for (let pattern of winPatterns) {
@@ -98,7 +96,7 @@
 
           if (pos1Val != "" && pos2Val != "" && pos3Val != "") {
             if (pos1Val === pos2Val && pos2Val === pos3Val) {
-              console.log("winner",pos1Val);
+              console.log("winner", pos1Val);
               showWinner(pos1Val);
             }
           }
@@ -106,8 +104,7 @@
       };
 
       newBtn.addEventListener("click", resetGame);
-      reset.addEventListener("click",resetGame);
-
+      reset.addEventListener("click", resetGame);
     </script>
   </body>
 </html>
