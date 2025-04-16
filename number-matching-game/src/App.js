@@ -21,12 +21,12 @@ function App() {
   }
  
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-      <h1 className="text-3xl font-bold mb-4">Number Guessing Game</h1>
+    <div> 
+      <h1 >Number Guessing Game</h1>
         <h2>{message}</h2>
         {!hasWon && 
         <form onSubmit={handleSubmit}>
-          <input type='number' value={userInput} placeholder='enter a number' required onChange={(e)=>{setUserInput(e.target.value)}} className='text-center'/>
+          <input type='number' value={userInput} placeholder='enter a number' required onChange={(e)=>{setUserInput(e.target.value)}} />
           <button type='submit'>Submit</button>
         </form>}
     </div>
